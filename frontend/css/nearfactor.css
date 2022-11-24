@@ -1,0 +1,562 @@
+body {
+  background-color: #636363;
+}
+
+.maindiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .detailsdi {
+    width: 20%;
+    background-color: #fadcdc;
+  }
+  
+  .griddiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 0px;
+    grid-template-areas: "Area";
+    -ms-grid-columns: 1fr 16px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto 0px auto;
+    grid-template-rows: auto auto;
+  }
+  
+  .texttitlediv {
+    margin-top: 21px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .redtext {
+    color: red;
+  }
+  
+  .forminputarea {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .minidiv {
+    width: 80%;
+    height: 50px;
+    margin-top: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+  }
+  
+  .top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .bottom {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .forminputdiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #000;
+  }
+  
+  .tablediv {
+    width: 60%;
+    height: 100%;
+    border: 1px solid #000;
+  }
+  
+  .tablediv.small {
+    width: 40%;
+  }
+  
+  .forminput {
+    width: 80%;
+    height: 50px;
+    margin-top: 18px;
+    border: 1px solid #000;
+  }
+  
+  .maindiv2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .leftdiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #636363;
+  }
+  
+  .centerdiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .rightdiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff2f2;
+  }
+  
+  .logodiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1px;
+    padding: 11px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* background-color: #c9c9c9; */
+  }
+  
+  .actionsidv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95%;
+    height: 25%;
+    margin-top: 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .actionsidv.small {
+    width: 49%;
+    height: 90%;
+    margin-right: 10px;
+  }
+  
+  .actionsidv.small.receievable {
+    width: 100%;
+    height: 35%;
+  }
+  
+  .actionsidv.info {
+    height: 35%;
+  }
+  
+  .actiondivtopbar {
+    width: 100%;
+    height: 15px;
+    background-color: #d8d8d8;
+  }
+  
+  .actiondivtitlediv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #e9e9e9;
+  }
+  
+  .actiondivtitletex {
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  
+  .contractdivtext {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 160px;
+  }
+  
+  .leftcontract {
+    width: 50%;
+    height: 101%;
+  }
+  
+  .contractdivtextbold {
+    width: auto;
+    margin-top: 14px;
+    margin-left: 23px;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .contractdivtextbold.cc {
+    margin-top: 3px;
+    font-weight: 400;
+  }
+  
+  .contractdivtextbold.tt {
+    margin-top: -1px;
+  }
+  
+  .submitbuttondiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    width: 225px;
+    height: 45px;
+    margin-top: 37px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #767ce1;
+  }
+  
+  .submitbuttondiv.form {
+    margin-top: 20px;
+  }
+  
+  .submitbuttondiv.form.receivable {
+    width: 150px;
+    margin-top: 0px;
+  }
+  
+  .buttontext {
+    font-family: Lato, sans-serif;
+    color: #d3d3d3;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .forminputdivd {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-right: 12px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .forminputdivd.redec {
+    margin-top: 22px;
+  }
+  
+  .forminputlabeltext {
+    width: 100%;
+    height: 25px;
+  }
+  
+  .forminputlabeltext.receifable {
+    width: auto;
+    margin-right: 15px;
+  }
+  
+  .forminoutlabeltextt {
+    padding-left: 17px;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .inputdropdown {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 500px;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* background-color: #e0e0e0; */
+    text-align: center;
+  }
+  
+  .inputdropdown.upload {
+    border-radius: 9px;
+  }
+  
+  .inputdropdown.receivable {
+    width: 300px;
+    margin-right: 15px;
+  }
+  
+  .middleactiondiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95%;
+    height: 40%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .middleactiondiv.receiable {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .uploadtext {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 40%;
+    margin-left: 21px;
+  }
+  
+  .ledgertitledevi {
+    height: 5%;
+    margin-top: 14px;
+    background-color: #fff;
+  }
+  
+  .ledgertitledevi.txns {
+    background-color: #fff2f2;
+  }
+  
+  .ledgertitletext {
+    margin-top: 21px;
+    margin-left: 31px;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  
+  .tablesdiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .investortablediv {
+    width: 90%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: #cacaca;
+  }
+  
+  .txndiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin-top: 16px;
+    border-radius: 4px;
+    /* background-color: #fff; */
+  }
+  
+  .sidediv {
+    width: 15px;
+    height: 100%;
+    background-color: red;
+  }
+  
+  .txnholderdiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .txntext {
+    padding-top: 8px;
+    padding-left: 11px;
+    background-color: #dfdada;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+  }
