@@ -1,6 +1,7 @@
 <br />
 **Contract address on NEAR TestNet:**
-**[Hc197WriGYnXR1eg6xjq94UCSfkMRtmUXkckshcvPnh6](https://explorer.testnet.near.org/transactions/Hc197WriGYnXR1eg6xjq94UCSfkMRtmUXkckshcvPnh6)**
+[Hc197WriGYnXR1eg6xjq94UCSfkMRtmUXkckshcvPnh6](https://explorer.testnet.near.org/transactions/Hc197WriGYnXR1eg6xjq94UCSfkMRtmUXkckshcvPnh6)
+
 ## Near Factor: DeFi protocol for receivables-based financing
 Near Factor is a general-purpose factroing protocol built to facilitate receivables-based lending. [Factoring](https://www.wikiwand.com/en/Factoring_(finance)) is one of oldest tools in the commercial finance world, but so far has been limited to centralized institutions which only cater to industries that they've traditionally been able to finance. **Near's low cost and high scalability make it the perfect protocol to build a receivables-based financing paradigm on top of.**
 
